@@ -6,7 +6,7 @@ notifications:
     rooms:
       - secure: dv1zozcLo/gGb1i1OeKKLQgjLagW3jqhkEIiZrVbubfRMrrHouZwtlg1HDVc2GOzP1yCaUOYOLBqT3lTE9CKt4pE8k3p0gJ77j1rHxTyeYny2ETq4w5sXak8ju8M3EDnj+Au2NWWrGiD0YkIUnF5vxzKUc1pkS+vDSWR2ORkOrU=
     template:
-      - %{branch} branch tests fail: <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}>) by %{author} <!here>
+      - Branch *%{branch}* failed tests: <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}>) by %{author} <!here>
     on_success: never
     on_failure: always
     on_start: never
