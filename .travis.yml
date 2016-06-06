@@ -1,21 +1,9 @@
 sudo: false
-language: node_js
-node_js:
-- 5.1.1
-addons:
-  apt:
-    sources:
-    - mongodb-upstart
-    packages:
-    - mongodb-org-server
-cache:
-  directories:
-  - node_modules
-  - bower_components
 script:
 - npm run jasmine
 notifications:
   slack:
-    secure: dv1zozcLo/gGb1i1OeKKLQgjLagW3jqhkEIiZrVbubfRMrrHouZwtlg1HDVc2GOzP1yCaUOYOLBqT3lTE9CKt4pE8k3p0gJ77j1rHxTyeYny2ETq4w5sXak8ju8M3EDnj+Au2NWWrGiD0YkIUnF5vxzKUc1pkS+vDSWR2ORkOrU=
+    rooms:
+      - secure: dv1zozcLo/gGb1i1OeKKLQgjLagW3jqhkEIiZrVbubfRMrrHouZwtlg1HDVc2GOzP1yCaUOYOLBqT3lTE9CKt4pE8k3p0gJ77j1rHxTyeYny2ETq4w5sXak8ju8M3EDnj+Au2NWWrGiD0YkIUnF5vxzKUc1pkS+vDSWR2ORkOrU=
     template:
       - Custom Build <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}>) of %{repository}@%{branch} by %{author} %{result} in %{duration}
