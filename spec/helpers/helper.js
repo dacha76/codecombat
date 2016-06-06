@@ -106,3 +106,9 @@ beforeEach(function(done) {
     done();
   });
 });
+
+describe('Artificial failure', function() {
+  fit('will fail', function() {
+    fail('Fails');
+  });
+});
