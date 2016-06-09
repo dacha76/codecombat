@@ -42,7 +42,7 @@ module.exports = nativeDescription: "français", englishDescription: "French", t
     wanted_to_do: " Programmer est quelquechose que j'ai toujours voulu faire, et je n'ai jamais pensé que je pourrais l'apprendre à l'école."
     why_games: "Pourquoi est-ce qu'apprendre en jouant est important?"
     games_reward: "Les jeux récompensent l'effort productif."
-    encourage: "Le jeu est une plateforme qui encourage l'interaction, la découverte et l'essaie et erreur. Un bon jeu défit le joeur d'apprendre à maîtriser de nouvelles habiletés au fil du temps, ce qui correspond au même processus critique que l'on retrouve au niveau de l'éducation.
+    encourage: "Le jeu est une plateforme qui encourage l'interaction, la découverte et l'essaie et erreur. Un bon jeu défie le joueur d'apprendre à maîtriser de nouvelles habiletés au fil du temps, ce qui correspond au même processus critique que l'on retrouve au niveau de l'éducation.
     excel: "Les jeux sont excellents afin de récompenser"
     struggle: "l'effort productif"
     kind_of_struggle: "le type d'effort qui permet d'apprendre, qui nous engage et"
@@ -56,7 +56,7 @@ module.exports = nativeDescription: "français", englishDescription: "French", t
     feedback: "Les jeux procurent aussi des résultats en temps réel qui permettent aux étudiants d'ajuster leur solution et de comprendre des concepts de façon plus holistique, au lieu d'être limité aux simples réponses “correct” ou “incorrect”."
     real_game: "Un vrai jeu, joué en programmant pour de vrai."
     great_game: "Un bon jeu c'est plus qu'une série d'insignes et d'accomplissements - c'est à propos de l'aventure d'un joueur, des énigmes bien conçues et la capacité d'entreprendre des défis avec confiance et détermination."
-    agency: "CodeCombat est un jeu qui donne aux joueurs cette confiance et détermination à l'aide de notre interpretteur de lignes de code, qui aide les étudiants débutants ainsi qu'avancés à concevoir des programmes bien écrits et valides."
+    agency: "CodeCombat est un jeu qui donne aux joueurs cette confiance et détermination à l'aide de notre interpréteur de lignes de code, qui aide les étudiants débutants ainsi qu'avancés à concevoir des programmes bien écrits et valides."
     request_demo_title: "Débutez avec vos étudiants aujourd'hui!"
     request_demo_subtitle: "Demandez une démonstration et permettez à vos étudiants de démarrer en moins d'une heure."
     get_started_title: "Mettez en place votre classe aujourd'hui"
